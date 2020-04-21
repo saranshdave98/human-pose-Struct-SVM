@@ -1,6 +1,4 @@
 from sklearn.svm import SVR
-from pystruct.learners import OneSlackSSVM
-from pystruct.learners import LatentSSVM
 import numpy as np
 
 train_X = np.load('training_input.npy',allow_pickle=True)
@@ -30,9 +28,7 @@ joints_info = np.load('joints_information.npy',allow_pickle=True)
 x_cords_test = joints_info[0][1800:]
 y_cords_test = joints_info[1][1800:]
 
-# clf = SVR(C=1.0, epsilon=0.1,kernel='rbf')
-# clf = OneSlackSSVM(C=1.0, epsilon=0.1,kernel='rbf')
-# clf = LatentSSVM(C=1.0, epsilon=0.1,kernel='rbf')
+clf = SVR(C=1.0, epsilon=0.1,kernel='rbf')
 
 #x-coordinates
 predicted_loc_x = []
