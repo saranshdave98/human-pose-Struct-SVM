@@ -1,1 +1,1 @@
-# human-pose-Struct-SVM
+# human-pose-estimation-using-Struct-SVM
