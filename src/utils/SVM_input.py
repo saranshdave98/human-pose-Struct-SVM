@@ -25,7 +25,7 @@ def divide_regions(image):
 
     height, width = image.shape[:2]
 
-    #dividing into 2x2 sub-regions
+    #dividing into 4 sub-regions
 
     #1
     start_row, start_col = int(0), int(0)
@@ -89,8 +89,8 @@ def extract_inpput_features(path):
                     this_box_feature.extend(subfeature)
             concatenated_bounding_box_feature = np.hstack([this_box_feature[0],this_box_feature[1],this_box_feature[2],this_box_feature[3]])
             this_image_features.extend(this_box_feature)
-        INPUT_TO_SVM.extend(this_image_features)
-        return INPUT_TO_SVM
+    INPUT_TO_SVM.extend(this_image_features)
+    return INPUT_TO_SVM
     
         
             

@@ -55,8 +55,8 @@ def real_time_upper_body():
         # Draw a rectangle around the upper bodies
         for (x, y, w, h) in upper_body:
             crop_img = frame[y:y+h, x:x+w]
-            plt.imshow(crop_img)
-            plt.show()
+            # plt.imshow(crop_img)
+            # plt.show()
             cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 1) # creates green color rectangle with a thickness size of 1
             cv2.putText(frame, "Upper Body Detected", (x + 5, y + 15), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2) # creates green color text with text size of 0.5 & thickness size of 2
         cv2.imshow('Video', frame) # Display video
@@ -68,3 +68,5 @@ def real_time_upper_body():
     # Release capture
     video_capture.release()
     cv2.destroyAllWindows()
+
+real_time_upper_body()
