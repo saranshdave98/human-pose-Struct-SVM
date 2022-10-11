@@ -10,7 +10,7 @@
 ![Results1](results1.jpg)
 ![Results2](results2.jpg)
 
-# Libraries Used (w/ Python3)
+# Libraries Used (in Python3)
   - cvxopt
   - scipy
   - cv2
