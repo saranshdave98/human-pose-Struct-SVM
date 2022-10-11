@@ -5,7 +5,7 @@
   - Refer to this doc for more info on this project:
     - https://docs.google.com/presentation/d/18-ftoJdxPLsZcftZjlLQE2ZFXV2MlQkVIys1SfGSMJM/edit?usp=sharing
     
-# Some results
+# Some Results
 
 ![Results1](results1.jpg)
 ![Results2](results2.jpg)
