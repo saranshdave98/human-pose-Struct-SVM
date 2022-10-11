@@ -10,6 +10,14 @@
 ![Results1](results1.jpg)
 ![Results2](results2.jpg)
 
+# Libraries Used (Python)
+  - cvxopt
+  - scipy
+  - cv2
+  - sklearn
+  - matplotlib
+  - numpy
+
 # Project Members
 
   - [Saransh Dave](https://www.linkedin.com/in/saransh-dave/)
